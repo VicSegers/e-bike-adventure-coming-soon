@@ -180,34 +180,34 @@
 }
 @-webkit-keyframes riding {
   from {
-    transform: translateX(-250%);
+    transform: translateX(-600px);
   }
   to {
-    transform: translateX(250%);
+    transform: translateX(calc(100vw + 50px));
   }
 }
 @-moz-keyframes riding {
   from {
-    transform: translateX(-250%);
+    transform: translateX(-600px);
   }
   to {
-    transform: translateX(250%);
+    transform: translateX(calc(100vw + 50px));
   }
 }
 @-ms-keyframes riding {
   from {
-    transform: translateX(-250%);
+    transform: translateX(-600px);
   }
   to {
-    transform: translateX(250%);
+    transform: translateX(calc(100vw + 50px));
   }
 }
 @keyframes riding {
   from {
-    transform: translateX(-250%);
+    transform: translateX(-600px);
   }
   to {
-    transform: translateX(250%);
+    transform: translateX(calc(100vw + 50px));
   }
 }
 
@@ -219,19 +219,19 @@
   left: 0;
   right: 0;
   -webkit-animation-name: riding;
-  -webkit-animation-duration: 5s;
+  -webkit-animation-duration: 6s;
   -webkit-animation-timing-function: linear;
   -webkit-animation-iteration-count: infinite;
   -moz-animation-name: riding;
-  -moz-animation-duration: 5s;
+  -moz-animation-duration: 6s;
   -moz-animation-timing-function: linear;
   -moz-animation-iteration-count: infinite;
   -o-animation-name: riding;
-  -o-animation-duration: 5s;
+  -o-animation-duration: 6s;
   -o-animation-timing-function: linear;
   -o-animation-iteration-count: infinite;
   animation-name: riding;
-  animation-duration: 5s;
+  animation-duration: 6s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
