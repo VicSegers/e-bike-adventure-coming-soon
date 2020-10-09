@@ -183,7 +183,7 @@
     transform: translateX(-600px);
   }
   to {
-    transform: translateX(calc(100vw + 50px));
+    transform: translateX(calc(100vw + 45px));
   }
 }
 @-moz-keyframes riding {
@@ -191,7 +191,7 @@
     transform: translateX(-600px);
   }
   to {
-    transform: translateX(calc(100vw + 50px));
+    transform: translateX(calc(100vw + 45px));
   }
 }
 @-ms-keyframes riding {
@@ -199,7 +199,7 @@
     transform: translateX(-600px);
   }
   to {
-    transform: translateX(calc(100vw + 50px));
+    transform: translateX(calc(100vw + 45px));
   }
 }
 @keyframes riding {
@@ -207,17 +207,17 @@
     transform: translateX(-600px);
   }
   to {
-    transform: translateX(calc(100vw + 50px));
+    transform: translateX(calc(100vw + 45px));
   }
 }
 
 .bike {
+  justify-content: center;
   width: 600px;
   height: 400px;
   position: absolute;
   bottom: calc(2em + 30px);
   left: 0;
-  right: 0;
   -webkit-animation-name: riding;
   -webkit-animation-duration: 6s;
   -webkit-animation-timing-function: linear;
